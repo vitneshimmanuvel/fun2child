@@ -1,0 +1,201 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+body{
+    width: 100%;
+}
+h1{
+    margin-top: 2rem;
+    width: 80%;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    margin-left: 5vh;
+    color: white;
+    text-shadow: 15px 15px 30px rgb(29, 29, 29);
+    
+}
+
+   img  {
+    
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.right div :not(.main1){
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.main1{
+    height: 300px;
+    width: 280px;
+    /* opacity: 50%; */
+    border-radius: 17px;
+    border: 3px solid white;
+  
+
+}
+.flex1{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(rgb(49, 49, 49) , rgb(15, 15, 15));
+   
+}
+.small1{
+    position:relative;
+    left: -20px;
+    top: 85px
+}
+.small2{
+    position: relative;
+    left: 280px;
+    top: 100px; 
+}
+.small3{
+    position: relative;
+    top: -10px;
+    left: 13px;
+}
+.small4{
+    position: relative;
+    top: -80px;
+    left : 270px
+}
+.right{
+    
+    height: 400px;
+    
+}
+.img1{
+    box-shadow: 10px 20px  50px 8px rgb(29, 29, 29) ;
+}
+.flex1 p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5vh;
+    font-weight: bolder;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 8px  black;
+}
+
+
+.card{
+    height:350px;
+    width:700px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 20px rgb(29, 29, 29);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+section img{
+    
+    height: 320px;
+    width: 180px;
+    
+    
+    
+}
+.card1{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 20px;
+    grid-template-rows: 100px 100px 100px 20px;
+}
+.card1 p{
+    grid-area: 2/2/5/5;
+   
+}
+.card1 img{
+    grid-area: 1/1/4/2;
+    
+}
+.card1 h2{
+    grid-area: 1/2/1/5;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    white-space: 5px;
+    font-size: 2em;
+    
+}
+button{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+    font-size: x-large;
+    font-weight: 400;
+    color: aliceblue;
+    
+}
+
+
+
+.but1{
+    grid-area: 3/2/5/3;
+    margin-left: 0px;
+    background-color: rgb(0, 219, 69);
+    
+    
+}
+
+.but2{
+    grid-area: 3/3/5/5;
+    background-color: blue;
+}
+
+.card2{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 20px;
+    grid-template-rows: 100px 100px 100px 20px;
+    margin-left: 850px;
+    margin-top: 120px;
+}
+
+    .card2 p{
+        grid-area: 2/2/5/5;
+       
+    }
+    .card2 img{
+        grid-area: 1/1/4/2;
+        
+    }
+    .card2 h2{
+        grid-area: 1/2/1/5;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        white-space: 5px;
+        font-size: 2em;
+
+    }
+
+ .sec2{
+    margin-top: 15px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+ }
+    
+ .greenbut:hover{
+    background-color: green;
+    padding: 20px;
+ }
+ .bluebut:hover{
+    background-color: rgb(1, 1, 159);
+ }
+.small1:hover{
+    height: 80px;
+    width: 80px;
+}
+.small2:hover{
+    height: 80px;
+    width: 80px;
+}
